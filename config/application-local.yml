@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  context-path: /spring-soap
+com:
+  jin:
+    soap:
+      generatePackage: com.jin.wsdl
+      defaultUri: http://www.webservicex.com/stockquote.asmx
+spring:
+  application:
+    name: spring-soap
+logging:
+  file: ./target/spring-soap.log
